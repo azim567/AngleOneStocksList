@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AngelOneStockList</string>
+    <string name="label_security_code">Security Code</string>
+    <string name="label_issuer_name">Issuer Name</string>
+    <string name="label_security_id">Security Id</string>
+    <string name="label_security_name">Security Name</string>
+    <string name="label_status">Status</string>
+    <string name="label_group">Group</string>
+    <string name="label_face_value">Face Value</string>
+    <string name="label_isIN_no">ISIN No</string>
+    <string name="label_industry">Industry</string>
+    <string name="label_instrument">Instrument</string>
+</resources>

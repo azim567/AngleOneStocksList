@@ -1,5 +1,7 @@
 package com.azimsiddiqui.angelonestocklist.ui
 
+import android.icu.lang.UCharacter.IndicPositionalCategory.NA
+import android.icu.text.UnicodeSet.EMPTY
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
@@ -17,13 +19,8 @@ class StockDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_stock_detail)
 
-        val data = intent.getParcelableExtra<Stock>(STOCK_ITEM)
-
-        //data?.let { binding.stock = it }
-
-
-           setupUI(data)
-
+        val data = intent.extras?.getParcelable<Stock>(STOCK_ITEM)
+        setupUI(data)
 
     }
 
@@ -40,6 +37,8 @@ class StockDetailActivity : AppCompatActivity() {
                 tvGroup.text = it.group
                 tvFaceValue.text = it.faceValue.toString()
                 tvIsinNo.text = it.iSINNo
+                tvIndustry.text = it.industry
+                tvInstrument.text = it.instrument
 
             }
         }

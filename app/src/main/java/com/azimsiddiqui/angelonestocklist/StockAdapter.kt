@@ -47,7 +47,10 @@ class StockAdapter @Inject constructor(private val stockOnClick: StockOnClick):R
             securityName.text=currentStock.securityName
 
         }
-        stockOnClick.onClickStock(currentStock)
+        holder.binding.root.setOnClickListener{
+            stockOnClick.onClickStock(currentStock)
+        }
+       // stockOnClick.onClickStock(currentStock)
     }
 
     override fun getItemCount() = stockList.size

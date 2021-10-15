@@ -15,46 +15,46 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:fontFamily="@font/roboto_medium"
             android:text="@string/label_security_code"
             android:textSize="15sp"
-            android:fontFamily="@font/roboto_medium"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/tv_security_code"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:textSize="20sp"
             android:fontFamily="@font/roboto_black"
-            app:layout_constraintTop_toBottomOf="@+id/label_security_code"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            tools:text="500002"/>
+            app:layout_constraintTop_toBottomOf="@+id/label_security_code"
+            tools:text="500002" />
 
         <TextView
             android:id="@+id/label_issuer_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:fontFamily="@font/roboto_medium"
             android:text="@string/label_issuer_name"
             android:textSize="15sp"
-            android:fontFamily="@font/roboto_medium"
-            app:layout_constraintTop_toBottomOf="@+id/tv_security_code"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@+id/tv_security_code" />
 
         <TextView
             android:id="@+id/tv_issuer_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:textSize="20sp"
             android:fontFamily="@font/roboto_black"
-            app:layout_constraintTop_toBottomOf="@+id/label_issuer_name"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            tools:text="ABB India Limited"/>
+            app:layout_constraintTop_toBottomOf="@+id/label_issuer_name"
+            tools:text="ABB India Limited" />
 
 
         <TextView
@@ -62,140 +62,140 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:fontFamily="@font/roboto_medium"
             android:text="@string/label_security_id"
             android:textSize="15sp"
-            android:fontFamily="@font/roboto_medium"
-            app:layout_constraintTop_toBottomOf="@+id/tv_issuer_name"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@+id/tv_issuer_name" />
 
         <TextView
             android:id="@+id/tv_security_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:textSize="20sp"
             android:fontFamily="@font/roboto_black"
-            app:layout_constraintTop_toBottomOf="@+id/label_security_id"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            tools:text="ABB"/>
+            app:layout_constraintTop_toBottomOf="@+id/label_security_id"
+            tools:text="ABB" />
 
         <TextView
             android:id="@+id/label_security_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/roboto_medium"
             android:text="@string/label_security_name"
             android:textSize="15sp"
-            android:fontFamily="@font/roboto_medium"
-            android:layout_marginRight="10dp"
-            app:layout_constraintTop_toBottomOf="@+id/tv_security_id"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@+id/tv_security_id" />
 
         <TextView
             android:id="@+id/tv_security_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:textSize="20sp"
             android:fontFamily="@font/roboto_black"
-            app:layout_constraintTop_toBottomOf="@+id/label_security_name"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            tools:text="ABB India Limited"/>
+            app:layout_constraintTop_toBottomOf="@+id/label_security_name"
+            tools:text="ABB India Limited" />
 
         <TextView
             android:id="@+id/label_status"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/roboto_medium"
             android:text="@string/label_status"
             android:textSize="15sp"
-            android:fontFamily="@font/roboto_medium"
-            android:layout_marginRight="10dp"
-            app:layout_constraintTop_toBottomOf="@+id/tv_security_name"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@+id/tv_security_name" />
 
         <TextView
             android:id="@+id/tv_status"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:textSize="20sp"
             android:fontFamily="@font/roboto_black"
-            app:layout_constraintTop_toBottomOf="@+id/label_status"
-            app:layout_constraintStart_toStartOf="parent" />
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/label_status" />
 
         <TextView
             android:id="@+id/label_group"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/roboto_medium"
             android:text="@string/label_group"
             android:textSize="15sp"
-            android:fontFamily="@font/roboto_medium"
-            android:layout_marginRight="10dp"
-            app:layout_constraintTop_toBottomOf="@+id/tv_status"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@+id/tv_status" />
 
         <TextView
             android:id="@+id/tv_group"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:textSize="20sp"
             android:fontFamily="@font/roboto_black"
-            app:layout_constraintTop_toBottomOf="@+id/label_group"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            tools:text="A"/>
+            app:layout_constraintTop_toBottomOf="@+id/label_group"
+            tools:text="A" />
 
         <TextView
             android:id="@+id/label_face_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:fontFamily="@font/roboto_medium"
             android:text="@string/label_face_value"
             android:textSize="15sp"
-            android:fontFamily="@font/roboto_medium"
-            app:layout_constraintTop_toBottomOf="@+id/tv_group"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@+id/tv_group" />
 
         <TextView
             android:id="@+id/tv_face_value"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:textSize="20sp"
             android:fontFamily="@font/roboto_black"
-            app:layout_constraintTop_toBottomOf="@+id/label_face_value"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            tools:text="2"/>
+            app:layout_constraintTop_toBottomOf="@+id/label_face_value"
+            tools:text="2" />
 
         <TextView
             android:id="@+id/label_isin_no"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:fontFamily="@font/roboto_medium"
             android:text="@string/label_isIN_no"
             android:textSize="15sp"
-            android:fontFamily="@font/roboto_medium"
-            app:layout_constraintTop_toBottomOf="@+id/tv_face_value"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@+id/tv_face_value" />
 
         <TextView
             android:id="@+id/tv_isin_no"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:textSize="20sp"
             android:fontFamily="@font/roboto_black"
-            app:layout_constraintTop_toBottomOf="@+id/label_isin_no"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            tools:text="INE117A01022"/>
+            app:layout_constraintTop_toBottomOf="@+id/label_isin_no"
+            tools:text="INE117A01022" />
 
 
         <TextView
@@ -203,23 +203,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:fontFamily="@font/roboto_medium"
             android:text="@string/label_industry"
             android:textSize="15sp"
-            android:fontFamily="@font/roboto_medium"
-            app:layout_constraintTop_toBottomOf="@+id/tv_isin_no"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@+id/tv_isin_no" />
 
         <TextView
             android:id="@+id/tv_industry"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:textSize="20sp"
             android:fontFamily="@font/roboto_black"
-            app:layout_constraintTop_toBottomOf="@+id/label_industry"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            tools:text="Heavy Electrical Equipment"/>
+            app:layout_constraintTop_toBottomOf="@+id/label_industry"
+            tools:text="Heavy Electrical Equipment" />
 
 
         <TextView
@@ -227,27 +227,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/roboto_medium"
             android:text="@string/label_instrument"
             android:textSize="15sp"
-            android:fontFamily="@font/roboto_medium"
-            android:layout_marginRight="10dp"
-            app:layout_constraintTop_toBottomOf="@+id/tv_industry"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintTop_toBottomOf="@+id/tv_industry" />
 
         <TextView
             android:id="@+id/tv_instrument"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:textSize="20sp"
             android:fontFamily="@font/roboto_black"
-            app:layout_constraintTop_toBottomOf="@+id/label_instrument"
+            android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
-            tools:text="Equity"/>
-
-
-
+            app:layout_constraintTop_toBottomOf="@+id/label_instrument"
+            tools:text="Equity" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -55,10 +55,12 @@ class MainActivity : AppCompatActivity(), StockOnClick {
     }
 
     override fun onClickStock(stock: Stock) {
+        var intent=Intent(this, StockDetailActivity::class.java)
         val bundle=Bundle()
         bundle.putParcelable(STOCK_ITEM,stock)
+        intent.putExtras(bundle)
 //     val startActivityIntent=Intent(this,StockDetailActivity::class.java)
 //        startActivityIntent.putExtra(STOCK_ITEM,stock)
-        startActivity(Intent(this, StockDetailActivity::class.java),bundle)
+        startActivity(intent)
     }
 }
